@@ -1,0 +1,52 @@
+body {
+  background: #99D16B;
+  font-family: "Helvetica"
+}
+
+h1 {
+  color: #FC6BD1;
+  background: yellow;
+  text-align: right;
+}
+
+span {
+  color: purple;
+}
+
+img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  border: 1px solid purple;
+}
+
+.list li {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.list.credits {
+  color: black;
+}
+
+.daily {
+  background: blue;
+}
+
+.important {
+  font-weight: bold;
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #AB6BD1;
+  }
+  img {
+    width: 100%;
+  }
+}
